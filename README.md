@@ -1,4 +1,0 @@
-my-homework
-===========
-
-my homework
