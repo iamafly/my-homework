@@ -1,0 +1,198 @@
+.clr{
+    clear: both;
+    width: 0px;
+    height: 0px;
+}
+
+#container{
+            margin:0 auto;
+	    	width:1002px;
+	    }
+        #header{
+        	height :128px;
+        	background :#EEE;
+        }
+        #nav li{
+            background:green;   
+        	width: 141px;
+        	margin-right: 1px;
+        	float: left;        
+        }
+        #nav a{
+        	font-size: 16px;
+            line-height: 37px;
+        	font-family: '微软雅黑';.
+        	color: #363636;
+        	display: block;
+        	width: 141px;
+        	height: 37px;
+        	text-align: center;
+        }
+        #nav a:hover{
+        	color: white;
+        	background: url(./nav_on.gif);
+        }
+
+
+        #slider{            
+            margin-bottom:10px; 
+            position:relative;
+            left:0px;
+            width:1000px;
+            height:290px;
+            border:1px solid red;
+       }
+
+        #snav{
+            position:absolute;
+ 
+            bottom:15px;
+            right:20px;
+            z-index:100;  
+        }
+
+        #snav li{
+            float:left;
+            margin-right: 1px;
+            width:25px;
+            height:25px;
+            background-color:#EEE;
+            border:1px solid red;
+            text-align: center;
+            line-height: 25px;
+            cursor:pointer;         
+        }
+
+        #snav li.selected{
+            background-color: red;   
+        }
+
+        #scont li{
+            position:absolute;
+            left:0px;
+            top:0px;
+        }
+ 
+        #tleft{
+            position:absolute;
+            left:0px;
+            top:120px;
+            height:60px;
+            width:35px;
+            cursor:pointer;
+        }
+
+        #tright{
+            position:absolute;
+            right:0px;
+            top:120px;
+            height:60px;
+            width:35px;
+            cursor:pointer;
+        }
+    #main{
+
+    }
+        #lside{
+            height: 480px;
+            width: 694px;
+            border: 1px solid #EEE;
+            float: left;
+        }
+
+        .subtitle{
+            height: 37px;
+            background: gray url(./bg.gif);
+        }
+
+        .subtitle h1{
+            float: left;
+            margin-left: 15px;
+            font-size: 16px;
+            font-family: 'Microsoft YaHei',SimHei,sans-serif
+        }
+
+        .subtitle a{
+            line-height: 29px;
+            color: black;
+            font-size: 16px;
+            float: right;
+        }
+
+        .four{
+            width: 335px;
+            margin: 0px 5px 5px;
+            height: 210px;
+            background: #EEE;
+            float: left;
+        }
+        .four img{
+            float: left;
+            margin-left: 10px;
+            padding: 6px;
+            background: white;
+        }
+
+        .four ul{
+            float: left;
+            margin-left:20px;
+        }
+
+        .four h2{
+            margin: 6px 0px 6px 10px;
+            font-size: 16px;
+            font-family: 'Microsoft YaHei',SimHei,sans-serif
+        }
+
+        .four a{
+            color: black;
+        }
+
+        .four a:visited{
+            color: purple;
+        }
+
+        #rside{
+            width: 294px;
+            float: right;
+
+        }
+        #art{
+            background: #EEE;
+            margin-top: 1px;
+            padding-top: 20px;
+        }
+
+        #art a{
+            line-height: 29px;
+            display: block;
+            padding-left: 20px;
+            height: 29px;
+        }
+
+        #contact{
+            height: 184px;
+            margin-top: 1px;
+            background: #EEE;
+        }
+
+        #footer{
+            height: 60px;
+        }
+
+        #footer ul {
+            height:30px;
+            background: #EEE;
+        }
+
+        #footer li{
+            float: left;
+            margin-top: 5px;
+            margin-right: 20px;
+        }
+        #footer address{
+            font-size: 12px;
+            font-family: 'Microsoft YaHei',sans-serif;
+            background: #EEE;
+            height: 20px;
+        }
